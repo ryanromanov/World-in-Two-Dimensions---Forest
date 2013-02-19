@@ -1,0 +1,144 @@
+body {
+	height: 600px;
+	width: 100%;
+	margin: 0;
+	margin-top: 5%;
+	padding: 0;
+	background-color: rgb(100, 100, 100);
+	overflow: hidden;
+}
+	#container {
+		height: 548px;
+		width: 1198px;
+		background-color: rgb(51, 204, 255);
+		margin: 0 auto;
+		margin-top: -1px;
+		padding: 0;
+		border: 1px solid rgb(100, 100, 100);
+		overflow: hidden;
+		animation-name: dusk;
+			animation-duration: 60s;
+			animation-delay: 0s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-direction: normal;
+		-moz-animation-name: dusk;
+			-moz-animation-duration: 60s;
+			-moz-animation-delay: 0s;
+			-moz-animation-iteration-count: infinite;
+			-moz-animation-timing-function: linear;
+			-moz-animation-direction: normal;
+		-webkit-animation-name: dusk;
+			-webkit-animation-duration: 60s;
+			-webkit-animation-delay: 0s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-direction: normal;
+	}
+		
+	#treeContainer {
+		background-color: transparent;
+		height: 398px;
+		width: 796px;
+		margin-left: 400px;
+		margin-top: 48px;
+		border: 1px solid #999;
+		animation-name: borderDusk;
+			animation-duration: 60s;
+			animation-delay: 0s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-direction: normal;
+		-moz-animation-name: borderDusk;
+			-moz-animation-duration: 60s;
+			-moz-animation-delay: 0s;
+			-moz-animation-iteration-count: infinite;
+			-moz-animation-timing-function: linear;
+			-moz-animation-direction: normal;
+		-webkit-animation-name: borderDusk;
+			-webkit-animation-duration: 60s;
+			-webkit-animation-delay: 0s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-direction: normal;
+	}
+		#trunk {
+			height: 546px;
+			width: 90px;
+			background-color: rgb(255, 255, 255);
+			margin-top: -49px;
+			margin-left: 705px;
+			border: 1px solid rgb(255, 255, 255);
+			position: relative;
+			z-index: 4;
+			animation-name: darkenTheTree;
+				animation-duration: 60s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			-moz-animation-name: darkenTheTree;
+				-moz-animation-duration: 60s;
+				-moz-animation-delay: 0s;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-timing-function: linear;
+			-webkit-animation-name: darkenTheTree;
+				-webkit-animation-duration: 60s;
+				-webkit-animation-delay: 0s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-timing-function: linear;
+			
+		}
+		#mainBranch {
+			height: 28px;
+			width: 328px;
+			background-color: rgb(255, 255, 255);
+			margin-top: -350px;
+			margin-left: 395px;
+			border: 1px solid rgb(255, 255, 255);
+				border-top-left-radius: 105px 15px;
+				border-bottom-left-radius: 105px 15px;		
+				position: relative;
+				z-index: 5;
+			animation-name: darkenTheTree;
+				animation-duration: 60s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			-moz-animation-name: darkenTheTree;
+				-moz-animation-duration: 60s;
+				-moz-animation-delay: 0s;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-timing-function: linear;
+			-webkit-animation-name: darkenTheTree;
+				-webkit-animation-duration: 60s;
+				-webkit-animation-delay: 0s;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-timing-function: linear;
+		}
+	#ground {
+		background-color: rgb(64,174,68);
+		height: 98px;
+		width: 1196px;
+		margin: 0 auto;
+		margin-top: 0px;
+		border: 1px solid rgb(64,174,68);
+		position: relative;
+		z-index: 3;
+		animation-name: darkenTheGround;
+			animation-duration:60s;
+			animation-delay:0s;
+			animation-iteration-count:infinite;
+			animation-timing-function: linear;
+		-moz-animation-name: darkenTheGround;
+			-moz-animation-duration:60s;
+			-moz-animation-delay:0s;
+			-moz-animation-iteration-count:infinite;
+			-moz-animation-timing-function: linear;
+		-webkit-animation-name: darkenTheGround;
+			-webkit-animation-duration:60s;
+			-webkit-animation-delay:0s;
+			-webkit-animation-iteration-count:infinite;
+			-webkit-animation-timing-function: linear;
+	}
+
+	

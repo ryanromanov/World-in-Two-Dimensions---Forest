@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tree of Life: Concept</title>
+<link rel="stylesheet" href="main_01.css" type="text/css" />
+<link rel="stylesheet" href="editing_main_01.css" type="text/css" />
+	<style type="text/css">
+		#fade_leafDeuxBranchOne,
+		#fade_leafDeuxBranchTwo,
+		#fade_leafDeuxBranchThree,
+		#fade_leafDeuxBranchFour,
+		#fade_leafNodeOneBranchOne {
+			display: none;
+		}
+		
+	</style>
+	
+	<script src="jquery-1.7.1.min.js"></script>
+	
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.leaf')
+            .click(function(){
+                $(this)
+                .toggleClass('leafGrow')
+                .removeClass('leafShrink');
+                if ($(this).hasClass('leafGrow') == true) {
+                    $(this)
+                    .children('.fade_support')
+                        .fadeIn(0400);
+                }
+                else {
+                    $(this)
+                    .addClass('leafShrink')
+                    .children('.fade_support')
+                        .fadeOut(0400);
+                }
+            });
+        });
+    </script>
+	
+</head>
+
+<body>
+	<div id="container">
+		<div id="tree">
+			<div id="mainBranch" class="branch"></div>
+			<div id="branchOne_Support" class="support">
+				<div id="branchOne_Branch" class="branch"></div>
+				<div id="nodeOneBranchOne_Support" class="support">
+					<div id="nodeOneBranchOne_Node" class="node"></div>
+					<div id="nodeOneBranchOne_Leaf" class="leaf">
+						<div id="fade_leafNodeOneBranchOne" class="fade_support">
+							<iframe src="http://en.m.wikipedia.org/wiki/Gibbons" id="leafNodeOneBranchOne" class="iFrameBox"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div id="deuxBranchOne_Branch" class="branch"></div>
+				<div id="deuxBranchOne_Leaf" class="leaf">
+					<div id="fade_leafDeuxBranchOne" class="fade_support">
+						<a href="http://en.m.wikipedia.org/wiki/Hylobates">
+							<img src="Images/320px-Weisshandgibbon_tierpark_berlin.jpg" alt="Lar Gibbon" id="leafDeuxBranchOne" class="wikiImage" />
+						</a>
+					</div>
+				</div>
+				<div id="divWords_leafDeuxBranchOne" class="divTitleTexts">
+					<h1 id="words_leafDeuxBranchOne" class="titleTexts">Hylobates</h1>
+				</div>
+			</div>
+			
+			<div id="branchTwo_Support" class="support">
+				<div id="branchTwo_Branch" class="branch"></div>
+				<div id="nodeOneBranchTwo_Support" class="support">
+					<div id="nodeOneBranchTwo_Node" class="node"></div>
+					<div id="nodeOneBranchTwo_Leaf" class="leaf"></div>
+				</div>
+				
+				<div id="deuxBranchTwo_Branch" class="branch"></div>
+				<div id="deuxBranchTwo_Leaf" class="leaf">
+					<div id="fade_leafDeuxBranchTwo" class="fade_support">
+						<a href="http://en.m.wikipedia.org/wiki/Orangutan">
+							<img src="Images/332px-Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.JPG" alt="orangutan eating a ripe coconut" id="leafDeuxBranchTwo" class="wikiImage"/>
+						</a>
+					</div>
+				</div>
+				<div id="divWords_leafDeuxBranchTwo" class="divTitleTexts">
+					<h1 id="words_leafDeuxBranchTwo" class="titleTexts">Pongo</h1>
+				</div>
+			</div>
+			
+			<div id="branchThree_Support" class="support">
+				<div id="branchThree_Branch" class="branch"></div>
+				<div id="nodeOneBranchThree_Support" class="support">
+					<div id="nodeOneBranchThree_Node" class="node"></div>
+					<div id="nodeOneBranchThree_Leaf" class="leaf"></div>
+				</div>
+				
+				<div id="deuxBranchThree_Branch" class="branch"></div>
+				<div id="deuxBranchThree_Leaf" class="leaf">
+					<div id="fade_leafDeuxBranchThree" class="fade_support">
+						<a href="http://en.m.wikipedia.org/wiki/Gorilla">
+							<img src="Images/430px-Male_gorilla_in_SF_zoo.jpg" alt="Western Gorilla" id="leafDeuxBranchThree" class="wikiImage" />
+						</a>
+					</div>
+				</div>
+				<div id="divWords_leafDeuxBranchThree" class="divTitleTexts">
+					<h1 id="words_leafDeuxBranchThree" class="titleTexts">Gorilla</h1>
+				</div>
+			</div>
+			
+			<div id="branchFour_Support" class="support">
+				<div id="branchFour_Branch" class="branch"></div>
+				
+				<div id="nodeOneBranchFour_Support" class="support">
+					<div id="nodeOneBranchFour_Node" class="node"></div>
+					<div id="nodeOneBranchFour_Leaf" class="leaf"></div>
+				</div>
+				
+				<div id="deuxBranchFour_Branch" class="branch"></div>
+				<div id="deuxBranchFour_Leaf" class="leaf">
+					<div id="fade_leafDeuxBranchFour" class="fade_support">
+						<a href="http://en.wikipedia.org/wiki/Chimpanzee">
+							<img src="Images/320px-Schimpanse_zoo-leipig.jpg" alt="Common Chimpanzee" id="leafDeuxBranchFour" class="wikiImage" />
+						</a>
+					</div>
+				</div>
+				<div id="divWords_leafDeuxBranchFour" class="divTitleTexts">
+					<h1 id="words_leafDeuxBranchFour" class="titleTexts">Pan</h1>
+				</div>
+			</div>
+    	</div>
+    </div>
+
+
+</body>
+
+</html>

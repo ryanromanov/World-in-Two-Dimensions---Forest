@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tree of Life: Concept</title>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="mainSun.css" type="text/css" />
+<link rel="stylesheet" href="mainKeyframes.css" type="text/css" />
+<link rel="stylesheet" href="mainStars.css" type="text/css" />
+<link rel="stylesheet" href="mainClouds.css" type="text/css" />
+	<style type="text/css">
+		#trees {
+			height: 300px;
+			width: 100%;
+			margin-top: -300px;
+		}
+		#cedarOne {
+			position: relative;
+			z-index: 4;
+			margin-top: 10px;
+			margin-left: -40px;
+		}
+		#cedarTwo {
+			position: relative;
+			z-index: 4;
+			margin-bottom: 70px;
+		}
+		#oakOne {
+			position: relative;
+			z-index: 4;
+			margin-left: -90px;
+			margin-bottom: 50px;
+		}
+		#oakTwo {
+			position: relative;
+			z-index: 4;
+			margin-bottom: 30px;
+			margin-left: 150px;
+			-moz-transform: scaleX(-1);
+	        -o-transform: scaleX(-1);
+	        -webkit-transform: scaleX(-1);
+	        transform: scaleX(-1);
+		}
+		#cedarThree {
+			position: relative;
+			z-index: 4;
+			margin-bottom: 70px;
+			margin-left: 40px;
+		}
+		#bird.birdImg {
+			position: relative;
+			z-index: 4;
+			margin-left: 500px;
+			margin-top: -500px;
+			margin-bottom: 345px;
+		}
+		
+				
+	</style>
+	
+	<script src="jquery-1.8.3.min.js"></script>
+	<script>
+		/* $(document).ready(function() {
+			$('#mainBranch').click(function() {
+				var rand_no = Math.floor(Math.random()*6);
+				document.getElementById('textArea').innerHTML = rand_no;
+				for (var i = 0; i <= 1 i++) {
+					var newClouds = "<div id='cloudTwo'><img src='Images/minimalCloudTwo.png' alt='minimal cloud two' id='cloudTwoImage' class='cloud' width='140px' height='140px' /> </div>";
+					document.getElementById('clouds').innerHTML = newClouds;
+				}
+		});
+		});
+		
+		// Need JavaScript/jQuery to sync audio to CSS-Animation
+			// a little lag as audio loads straight from computer, over slow connection audio would probably lag a lot
+			// looping the audio seems to create a millisecond gap of silence that builds over time
+			
+		// javascript to add multiple birds
+		
+		// possibly add in storms? not hard
+		
+		// turn picture into circle
+			
+		
+		*/
+	</script>
+	
+</head>
+
+<body>
+	<div id="container">
+		<div id="clouds">
+			<div id="cloudOne" class="cloudDivOne">
+				<img src="Images/minimalCloudOne.png" alt="minimal cloud one" id="cloudOneImage" class="cloud" width="200px" height="200px" />
+			</div>
+			<div id="cloudTwo" class="cloudDivTwo">
+				<img src="Images/minimalCloudTwo.png" alt="minimal cloud two" id="cloudTwoImage" class="cloud" width="200px" height="200px" />
+			</div>
+			<div id="cloudThree" class="cloudDivThree">
+				<img src="Images/minimalCloudThree.png" alt="minimal cloud three" id="cloudThreeImage" class="cloud" width="140px" height="140px" />
+			</div>
+			<div id="cloudFour" class="cloudDivFour">
+				<img src="Images/minimalCloudOne.png" alt="minimal cloud four (far away)" id="cloudFourImage" class="cloud" width="100px" height="100px" />
+			</div>
+		</div>
+		
+		<div id="treeContainer">
+			<div id="trunk">
+			</div>
+			<div id="birdDiv">
+			<img src="Images/birdYellow.png" alt="yellow bird" height="70px" width="100px" id="bird" class="birdImg" />
+			</div>
+			<div id="mainBranch">
+			</div>
+			
+		</div>
+		<div id="ground">
+		</div>
+		<div id="trees">
+			<img src="Images/treeCedar.png" alt="Cedar Tree" height="300px" width="300px" class="treeImg" id="cedarOne" />
+			<img src="Images/treeOak.png" alt="Oak Tree" height="100px" width="100px" class="treeImg" id="oakOne" />
+			<img src="Images/treeCedar.png" alt="Cedar Tree" height="100px" width="100px" class="treeImg" id="cedarThree" />
+			<img src="Images/treeOak.png" alt="Oak Tree" height="200px" width="200px" class="treeImg" id="oakTwo" />
+			<img src="Images/treeCedar.png" alt="Cedar Tree" height="100px" width="100px" class="treeImg" id="cedarTwo" />
+		</div>
+		<div id="sunWrapper">
+			<div id="rotationContainer">
+				<div id="sun">
+				</div>
+				<div id="moon">
+				</div>
+			</div>
+		</div>
+		<div id="starWrapper">
+			<div id="starRotationContainer">
+				<img src="Images/starsBig.jpg" alt="stars" height="3000px" width="3000px" />
+			</div>
+		</div>
+	</div>
+	<div id="audio">
+		<audio src="Audio/Day&Night_mixdown.ogg" loop="loop" preload="none" autoplay="autoplay"></audio>
+		<audio src="Audio/Day&Night_mixdown.m4a" loop="loop" preload="none" autoplay="autoplay"></audio>
+	</div>
+</body>
+
+</html>

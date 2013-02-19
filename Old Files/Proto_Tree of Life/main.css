@@ -1,0 +1,99 @@
+/**** Container ****/
+	#container {
+		height: 1000px;
+		min-width: 800px;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+/**** Top ****/
+		#top {
+			width: 800px;
+			height: 70px;
+			margin: 0 auto;
+			padding: 5px;
+			text-align: center;
+			border: 1px solid grey;
+			border-radius: 10px;
+		}
+			#top h1 {
+				font: 300 1.5em "Helvetica Neue", Helvetica, sans-serif;
+			}
+		
+/**** Bottom ****/
+	#bottom {
+		width: 800px;
+		height: 800px;
+		margin: 10px auto;
+		padding: 5px;
+		border: 1px solid grey;
+		border-radius: 10px;
+		text-align: center;
+		font: 300 1em "Helvetica Neue", Helvetica, sans-serif;
+		color: #333;
+	}
+		#bottom #tree {
+			width: 700px;
+			height: 700px;
+			margin: 5px auto;
+
+			border: 1px solid red;
+			border-radius: 10px;
+		}
+			#bottom #tree #trunk {
+				width: 650px;
+				height: 650px;
+				margin: 0px auto;
+				margin-top: 5px;
+				padding: 5px;
+				border: 1px solid blue;
+				border-radius: 5px;
+				-moz-perspective: 500px;
+				-webkit-perspective: 500px;
+			}
+			#bottom #tree #trunk #seed {
+				width: 200px;
+				height: 32px;
+				margin: 0 auto;
+				-moz-perspective: 200px;
+				-webkit-perspective: 200px;
+			}
+				#bottom #tree #trunk #seed #subSeed {
+					display: block;
+					position: relative;
+					margin: 0px auto;
+					margin-top: 10px;
+					height: 30px;
+					width: 100px;
+					text-decoration: none;
+					-moz-transform-style: preserve-3d;
+						-moz-transition: all 2s ease-out;
+					-moz-transform: rotateY(0deg);
+					-moz-transform-origin: bottom;
+						
+					-webkit-transform-style: preserve-3d;
+					-webkit-transform: rotateY(0deg);
+						-webkit-transition: all 2s ease-out;
+					-webkit-transform-origin: bottom;
+					
+					border: 1px solid green;
+					border-radius: 10px;
+					
+					-moz-perspective: 500px;
+					-webkit-perspective: 500px;
+				}
+				#bottom #tree #trunk #seed:hover #subSeed {
+					-moz-transform: rotateY(180deg);
+					-webkit-transform: rotateY(180deg);
+				}
+					#bottom #tree #trunk #seed #subSeed #lessSubSeed {
+						text-decoration: none;
+						color: #333;
+					}
+			#bottom #tree #trunk span#one.branch {
+				display: block;
+				margin: 0 auto;
+				width: 2px;
+				height: 100px;
+				background-color: brown;
+			}

@@ -1,0 +1,438 @@
+@keyframes dusk {
+	0% {
+		background-color: rgb(243,134,48);
+	}
+	10% {
+		background-color: rgb(51, 204, 255);
+	}
+	40% {
+		background-color: rgb(51, 204, 255);
+	}
+	50% {
+		background-color: rgb(243,134,48);
+	}
+	60% {
+		background-color: rgb(0, 0, 0);
+	}
+	95% {
+		background-color: rgb(0, 0, 0);
+	}
+	100% {
+		background-color: rgb(243,134,48);
+	}
+}
+	@-moz-keyframes dusk {
+		0% {
+			background-color: rgb(243,134,48);
+		}
+		10% {
+			background-color: rgb(51, 204, 255);
+		}
+		40% {
+			background-color: rgb(51, 204, 255);
+		}
+		50% {
+			background-color: rgb(243,134,48);
+		}
+		60% {
+			background-color: rgb(0, 0, 0);
+		}
+		95% {
+			background-color: rgb(0, 0, 0);
+		}
+		100% {
+			background-color: rgb(243,134,48);
+		}
+	}
+	@-webkit-keyframes dusk {
+		0% {
+			background-color: rgb(243,134,48);
+		}
+		10% {
+			background-color: rgb(51, 204, 255);
+		}
+		40% {
+			background-color: rgb(51, 204, 255);
+		}
+		50% {
+			background-color: rgb(243,134,48);
+		}
+		60% {
+			background-color: rgb(0, 0, 0);
+		}
+		95% {
+			background-color: rgb(0, 0, 0);
+		}
+		100% {
+			background-color: rgb(243,134,48);
+		}
+	}
+
+@keyframes rotate {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+	@-moz-keyframes rotate {
+		from {
+			-moz-transform: rotateZ(0deg);
+		}
+		to {
+			-moz-transform: rotateZ(360deg);
+		}
+	}
+	@-webkit-keyframes rotate {
+		from {
+			-webkit-transform: rotateZ(0deg);
+		}
+		to {
+			-webkit-transform: rotateZ(360deg);
+		}
+	}
+ 
+@keyframes borderDusk {
+	0% {
+		border: 1px solid rgb(243,134,48);
+	}
+	10% {
+		border: 1px solid rgb(51, 204, 255);
+	}
+	40% {
+		border: 1px solid rgb(51, 204, 255);
+	}
+	50% {
+		border: 1px solid rgb(243,134,48);
+	}
+	60% {
+		border: 1px solid rgb(0, 0, 0);
+	}
+	95% {
+		border: 1px solid rgb(0, 0, 0);
+	}
+	100% {
+		border: 1px solid rgb(243,134,48);
+	}
+}
+	@-moz-keyframes borderDusk {
+		0% {
+			border: 1px solid rgb(243,134,48);
+		}
+		10% {
+			border: 1px solid rgb(51, 204, 255);
+		}
+		40% {
+			border: 1px solid rgb(51, 204, 255);
+		}
+		50% {
+			border: 1px solid rgb(243,134,48);
+		}
+		60% {
+			border: 1px solid rgb(0, 0, 0);
+		}
+		95% {
+			border: 1px solid rgb(0, 0, 0);
+		}
+		100% {
+			border: 1px solid rgb(243,134,48);
+		}
+	}
+	@-webkit-keyframes borderDusk {
+		0% {
+			border: 1px solid rgb(243,134,48);
+		}
+		10% {
+			border: 1px solid rgb(51, 204, 255);
+		}
+		40% {
+			border: 1px solid rgb(51, 204, 255);
+		}
+		50% {
+			border: 1px solid rgb(243,134,48);
+		}
+		60% {
+			border: 1px solid rgb(0, 0, 0);
+		}
+		95% {
+			border: 1px solid rgb(0, 0, 0);
+		}
+		100% {
+			border: 1px solid rgb(243,134,48);
+		}
+	}
+@keyframes fadeTheClouds {
+	0% {
+		opacity: 1;
+	}
+	10% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	60% {
+		opacity: .3;
+	}
+	95% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+	@-moz-keyframes fadeTheClouds {
+		0% {
+			opacity: 1;
+		}
+		10% {
+			opacity: 1;
+		}
+		40% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 1;
+		}
+		60% {
+			opacity: .3;
+		}
+		95% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@-webkit-keyframes fadeTheClouds {
+		0% {
+			opacity: 1;
+		}
+		10% {
+			opacity: 1;
+		}
+		40% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 1;
+		}
+		60% {
+			opacity: .3;
+		}
+		95% {
+			opacity: .5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+@keyframes marshmallowDrift {
+	from {
+		margin-left: -200px;
+	}
+	to {
+		margin-left: 1200px;
+	}
+}
+	@-moz-keyframes marshmallowDrift {
+		from {
+			margin-left: -200px;
+		}
+		to {
+			margin-left: 1200px;
+		}
+	}
+	@-webkit-keyframes marshmallowDrift {
+		from {
+			margin-left: -200px;
+		}
+		to {
+			margin-left: 1200px;
+		}
+	}
+
+@keyframes darkenTheGround {
+	0% {
+		background-color: rgb(85,171,72);
+		border-color: rgb(85,171,72);
+	}
+	10% {
+		background-color: rgb(64,174,68);
+		border-color: rgb(64,174,68);
+	}
+	40% {
+		background-color: rgb(64,174,68);
+		border-color: rgb(64,174,68);
+	}
+	50% {
+		background-color: rgb(85,171,72);
+		border-color: rgb(85,171,72);
+	}
+	60% {
+		background-color: rgb(10,145,83);
+		border-color: rgb(10,145,83);
+	}
+	95% {
+		background-color: rgb(10,145,83);
+		border-color: rgb(10,145,83);
+	}
+	100% {
+		background-color: rgb(85,171,72);
+		border-color: rgb(85,171,72);
+	}
+}
+	@-moz-keyframes darkenTheGround {
+		0% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+		10% {
+			background-color: rgb(64,174,68);
+			border-color: rgb(64,174,68);
+		}
+		40% {
+			background-color: rgb(64,174,68);
+			border-color: rgb(64,174,68);
+		}
+		50% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+		60% {
+			background-color: rgb(10,145,83);
+			border-color: rgb(10,145,83);
+		}
+		95% {
+			background-color: rgb(10,145,83);
+			border-color: rgb(10,145,83);
+		}
+		100% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+	}
+	@-webkit-keyframes darkenTheGround {
+		0% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+		10% {
+			background-color: rgb(64,174,68);
+			border-color: rgb(64,174,68);
+		}
+		40% {
+			background-color: rgb(64,174,68);
+			border-color: rgb(64,174,68);
+		}
+		50% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+		60% {
+			background-color: rgb(10,145,83);
+			border-color: rgb(10,145,83);
+		}
+		95% {
+			background-color: rgb(10,145,83);
+			border-color: rgb(10,145,83);
+		}
+		100% {
+			background-color: rgb(85,171,72);
+			border-color: rgb(85,171,72);
+		}
+	}
+@keyframes darkenTheTree {
+	0% {
+		background-color: rgb(250,247,195);
+		border-color: rgb(250,247,195);
+	}
+	10% {
+		background-color: rgb(255, 255, 255);
+		border-color: rgb(255, 255, 255);
+	}
+	40% {
+		background-color: rgb(255, 255, 255);
+		border-color: rgb(255, 255, 255);
+	}
+	50% {
+		background-color: rgb(250,247,195);
+		border-color: rgb(250,247,195);
+	}
+	60% {
+		background-color: rgb(179,179,179);
+		border-color: rgb(179,179,179);
+	}
+	95% {
+		background-color: rgb(179,179,179);
+		border-color: rgb(179,179,179);
+	}
+	100% {
+		background-color: rgb(250,247,195);
+		border-color: rgb(250,247,195);
+	}
+}
+	@-webkit-keyframes darkenTheTree {
+		0% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+		10% {
+			background-color: rgb(255, 255, 255);
+			border-color: rgb(255, 255, 255);
+		}
+		40% {
+			background-color: rgb(255, 255, 255);
+			border-color: rgb(255, 255, 255);
+		}
+		50% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+		60% {
+			background-color: rgb(179,179,179);
+			border-color: rgb(179,179,179);
+		}
+		95% {
+			background-color: rgb(179,179,179);
+			border-color: rgb(179,179,179);
+		}
+		100% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+	}
+	@-moz-keyframes darkenTheTree {
+		0% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+		10% {
+			background-color: rgb(255, 255, 255);
+			border-color: rgb(255, 255, 255);
+		}
+		40% {
+			background-color: rgb(255, 255, 255);
+			border-color: rgb(255, 255, 255);
+		}
+		50% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+		60% {
+			background-color: rgb(179,179,179);
+			border-color: rgb(179,179,179);
+		}
+		95% {
+			background-color: rgb(179,179,179);
+			border-color: rgb(179,179,179);
+		}
+		100% {
+			background-color: rgb(250,247,195);
+			border-color: rgb(250,247,195);
+		}
+	}

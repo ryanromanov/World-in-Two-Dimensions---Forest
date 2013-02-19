@@ -1,0 +1,111 @@
+#clouds {
+	height: 140px;
+	width: 100%;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -140px;
+}
+	#cloudOne {
+		width: 140px;
+		height: 140px;
+		
+	}
+	#cloudTwo {
+		width: 140px;
+		height: 140px;
+	}
+	#cloudThree {
+		width: 140px;
+		height: 140px;
+		margin-top: -200px;
+	}
+	#cloudFour {
+		width: 140px;
+		height: 140px;
+		margin-top: -130px;
+	}
+	#cloudOneImage {
+		animation-name: marshmallowDrift, fadeTheClouds;
+			animation-duration: 65s, 60s;
+			animation-delay: 30s, 0s;
+			animation-iteration-count: infinite, infinite;
+			animation-timing-function: linear, linear;
+		-moz-animation-name: marshmallowDrift, fadeTheClouds;
+			-moz-animation-duration: 65s, 60s;
+			-moz-animation-delay: 30s, 0s;
+			-moz-animation-iteration-count: infinite, infinite;
+			-moz-animation-timing-function: linear, linear;
+		-webkit-animation-name: marshmallowDrift, fadeTheClouds;
+			-webkit-animation-duration: 65s, 60s;
+			-webkit-animation-delay: 30s, 0s;
+			-webkit-animation-iteration-count: infinite, infinite;
+			-webkit-animation-timing-function: linear, linear;
+		position: relative;
+		z-index: 3;
+		margin-top: -30px;
+		margin-left: -300px;
+	}
+	#cloudTwoImage {
+		animation-name: marshmallowDrift, fadeTheClouds;
+			animation-duration: 70s, 60s;
+			animation-delay: 0s, 0s;
+			animation-iteration-count: infinite, infinite;
+			animation-timing-function: linear, linear;
+		-moz-animation-name: marshmallowDrift, fadeTheClouds;
+			-moz-animation-duration: 70s, 60s;
+			-moz-animation-delay: 0s, 0s;
+			-moz-animation-iteration-count: infinite, infinite;
+			-moz-animation-timing-function: linear, linear;
+		-webkit-animation-name: marshmallowDrift, fadeTheClouds;
+			-webkit-animation-duration: 70s, 60s;
+			-webkit-animation-delay: 0s, 0s;
+			-webkit-animation-iteration-count: infinite, infinite;
+			-webkit-animation-timing-function: linear, linear;
+		position: relative;
+		z-index: 3;
+		margin-top: -160px;
+		margin-left: -230px;
+	}
+	#cloudThreeImage {
+		animation-name: marshmallowDrift, fadeTheClouds;
+			animation-duration: 90s, 60s;
+			animation-delay: 15s, 0s;
+			animation-iteration-count: infinite, infinite;
+			animation-timing-function: linear, linear;
+		-webkit-animation-name: marshmallowDrift, fadeTheClouds;
+			-webkit-animation-duration: 90s, 60s;
+			-webkit-animation-delay: 15s, 0s;
+			-webkit-animation-iteration-count: infinite, infinite;
+			-webkit-animation-timing-function: linear, linear;
+		-moz-animation-name: marshmallowDrift, fadeTheClouds;
+			-moz-animation-duration: 90s, 60s;
+			-moz-animation-delay: 15s, 0s;
+			-moz-animation-iteration-count: infinite, infinite;
+			-moz-animation-timing-function: linear, linear;
+		position: relative;
+		z-index: 3;
+		margin-top: -200px;
+		margin-left: -250px;
+	}
+	#cloudFourImage {
+		animation-name: marshmallowDrift, fadeTheClouds;
+			animation-duration: 110s, 60s;
+			animation-delay: 5s, 0s;
+			animation-iteration-count: infinite, infinite;
+			animation-timing-function: linear, linear;
+		-moz-animation-name: marshmallowDrift, fadeTheClouds;
+			-moz-animation-duration: 110s, 60s;
+			-moz-animation-delay: 5s, 0s;
+			-moz-animation-iteration-count: infinite, infinite;
+			-moz-animation-timing-function: linear, linear;
+		-webkit-animation-name: marshmallowDrift, fadeTheClouds;
+			-webkit-animation-duration: 110s, 60s;
+			-webkit-animation-delay: 5s, 0s;
+			-webkit-animation-iteration-count: infinite, infinite;
+			-webkit-animation-timing-function: linear, linear;
+		position: relative;
+		z-index: 3;
+		margin-top: -200px;
+		margin-left: -200px;
+	}

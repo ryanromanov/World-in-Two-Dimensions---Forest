@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<title>Il Sole</title>
+<style>
+body {
+	overflow: hidden;
+}
+#wrapper {
+	height: 600px;
+	width: 700px;
+	border: 1px solid #333;
+	margin: 40px auto;
+	
+	
+}
+	#rotationContainer {
+		height: 598px;
+		width: 100%;
+		border: 1px solid #793;
+		animation-name: rotate;
+		animation-duration: 60s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+		#sun {
+			margin: 0;
+				margin-top: 37%;
+			padding: 0;
+			width: 75px;
+			height: 75px;
+			background-color: rgb(255, 255, 0);
+			border: 1px solid rgb(255, 255, 0);
+				border-radius: 50px;
+			box-shadow: 0px 0px 30px rgb(255, 255, 0);
+		}
+		#moon {
+			margin: 0;
+				margin-left: 647px;
+				margin-top: -62px;
+			padding: 0;
+			width: 50px;
+			height: 50px;
+			background-color: rgb(220, 220, 220);
+			border: 1px solid rgb(220, 220, 220);
+				border-radius: 34px;
+			box-shadow: 0px 0px 30px rgb(200, 200, 200);
+		}
+@keyframes rotate {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="rotationContainer">
+		<div id="sun">
+		</div>
+		<div id="moon">
+		</div>
+	</div>
+</div>
+</body>
+
+
+</html>
